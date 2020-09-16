@@ -6,6 +6,7 @@ body{
     background-color: black;
 }
 
+/*Big container of image and titles*/
 .o-container{
     display: flex;
     align-items: center;
@@ -13,7 +14,7 @@ body{
     flex-wrap: wrap;
 }
 
-
+/*Styles form background image*/
 .o-image-background{
     background-image: url(src/669.jpg);
     width: 100vw;
@@ -29,7 +30,7 @@ body{
     flex-wrap: wrap;
 }
 
-
+/* Organization of container for titles container*/
 .o-titles-container{
     display: flex;
     align-items: center;
@@ -37,6 +38,7 @@ body{
     flex-wrap: wrap;
 }
 
+/*titles Styles*/
 .o-title{
     font-weight: bold;
     font-size: 4rem;
@@ -56,7 +58,7 @@ body{
     color: black;
 }
 
-
+/*Container organization for a pseudo navbar*/
 .o-search-navbar-container{
     display: flex;
     align-items: center;
@@ -110,6 +112,8 @@ body{
     border: 1px solid white;
 }
 
+
+/*Big container of cards*/
 .o-card-container{
     display: flex;
     justify-content: space-around;
@@ -118,7 +122,7 @@ body{
 }
 
 
-
+/*Card Styles*/
 .o-card{
     max-width: 195px;
     max-height: 260px;
@@ -130,6 +134,7 @@ body{
     margin: 1.5rem;
 }
 
+/*Card interaction of pseudo over mouse*/
 .o-card:hover{
     max-width: 195px;
     max-height: 260px;
@@ -142,12 +147,13 @@ body{
     margin: 1.5rem;
 }
 
+/*Image sizing inside card container*/
 .o-hero-image{
     width: 100%;
     height: 65%;
 }
 
-
+/*Style for title inside card*/
 .o-hero-title{
     text-align: center;
     text-shadow: 2px 2px black;

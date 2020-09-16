@@ -1,0 +1,138 @@
+/* Item Styles*/
+
+/*Set font all over the body*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+/* Image back settings styles*/
+.o-image-container-back{
+    background-image: url(src/669.jpg);
+    width: 100vw;
+    height: 50vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Hero image specific from searching container*/
+.o-hero-card{
+    max-width: 195px;
+    max-height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    background-color:black ;
+    
+}
+/* Image hero Styles*/
+.o-image-hero{
+    width: 100%;
+    height: 65%;
+}
+/* name text hero Styles*/
+.o-hero-name{
+    text-align: center;
+    text-shadow: 2px 2px rgba(244, 248, 15, 0.89);
+    margin: 0.5rem;
+}
+
+/* Big container layout*/
+.o-information-container-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+}
+
+/* containenr about Styles*/
+.o-general-information-first{
+    width: 25%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+/* containenr superpower Styles*/
+.o-superpower-first{
+    width: 25%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*title Styles*/
+.o-title{
+    color: rgba(244, 248, 15, 0.89);
+}
+
+/*paragraphs Styles*/
+.o-paragraph-first{
+    color: white;
+    text-align: justify;
+}
+
+
+.o-paragraph-second{
+    color: white;
+    text-align: justify;
+}
+
+
+/*media query to show the information and responsive layout on movil devices*/
+@media only screen and (max-width: 992px) {
+
+    /*ending desktop styles*/
+    .o-information-container-first{
+        display: none;
+    }
+    .o-general-information-first{
+        display: none;
+    }
+    .o-superpower-first{
+        display: none;
+    }
+
+    /*applying mobiles Styles*/
+    .o-information-container-second{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1.5rem;
+    }
+
+    .o-general-information-second{
+        width: 75%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .o-superpower-second{
+        width: 75%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
