@@ -1,0 +1,108 @@
+/* Index Styles*/
+
+/*Set font all over the body*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Big container, background image*/
+.o-container-image{
+    background-image: url(src/669.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Text items container*/
+.o-text-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*Title container*/
+.o-titles-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Title Styles*/
+.o-title{
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(244, 248, 15, 0.979);
+    margin: 0rem;
+    text-shadow: 2px 2px white;
+}
+
+/* Specific for t1 Styles*/
+.o-t1{
+    text-shadow: 2px 2px black;
+}
+
+/* Specific for t2 Styles*/
+.o-t2{
+    color: black;
+}
+
+/* subtitle Styles*/
+.o-subtitle{
+    margin-top: 0rem;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgba(244, 248, 15, 0.89);
+}
+
+/* text field input Styles*/
+.o-text-field{
+    background: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/*button input Styles*/
+.o-button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgba(244, 248, 15, 0.89) ;
+    border: none
+}
+
+/*button input Styles psseudo on click*/
+.o-button:hover{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: black ;
+    color:rgba(244, 248, 15, 0.89) ;
+    border: none
+}
+

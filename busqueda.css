@@ -1,0 +1,156 @@
+/* Busqueda Styles*/
+
+/*Set font all over the body*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.o-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.o-image-background{
+    background-image: url(src/669.jpg);
+    width: 100vw;
+    height: 25vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.o-titles-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.o-title{
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(244, 248, 15, 0.979);
+    margin: 0rem;
+    text-shadow: 2px 2px white;
+}
+
+/* Specific for t1 Styles*/
+.o-t1{
+    text-shadow: 2px 2px black;
+}
+
+/* Specific for t2 Styles*/
+.o-t2{
+    color: black;
+}
+
+
+.o-search-navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* text field input Styles*/
+.o-text-field{
+    background: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 1rem;
+}
+
+/*button input Styles*/
+.o-button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgba(244, 248, 15, 0.89) ;
+    border: none;
+    margin: 1rem;
+}
+
+/*button input Styles psseudo on click*/
+.o-button:hover{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: black ;
+    color:rgba(244, 248, 15, 0.89) ;
+    border: 1px solid white;
+}
+
+.o-card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+}
+
+
+
+.o-card{
+    max-width: 195px;
+    max-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color:rgba(244, 248, 15, 0.89) ;
+    margin: 1.5rem;
+}
+
+.o-card:hover{
+    max-width: 195px;
+    max-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    color:rgba(244, 248, 15, 0.89) ;
+    background-color: black;
+    margin: 1.5rem;
+}
+
+.o-hero-image{
+    width: 100%;
+    height: 65%;
+}
+
+
+.o-hero-title{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin: 0.5rem;
+}
+
